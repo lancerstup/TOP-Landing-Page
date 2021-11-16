@@ -1,0 +1,178 @@
+header{
+    margin:auto;
+  
+    
+
+.hero-container{
+    background:$herofooter;
+    padding: 5.9375rem 13rem;
+    display:flex;
+    flex-direction: row;
+}
+
+.hero-container > .hero-text > h1{
+    padding-right:1rem;
+    font-size:3rem;
+    color:$heromain;
+    margin-bottom:0;
+}
+    
+
+
+.hero-container > .hero-text{
+    padding-right:5rem;
+    
+}
+
+.hero-container > .hero-text > section{
+    font-size:1.125rem;
+    margin-top:0rem;
+    color:$herosecondaryheaderlinktext;
+
+}
+
+.hero-container > .hero-text > .hero-button{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size:1.125rem;
+    display:inline-block;
+    margin-top:1rem;
+    padding:0.625rem 2.1875rem;
+    background:$buttoncolor;
+    border-radius: 10px;
+    color:$headerlogotext;
+    font-weight:bold;
+}
+
+.hero-container > .hero-text > .hero-button:active{
+    background:$herofooter;
+    border:2px solid $buttoncolor;
+
+}
+
+.hero{
+    border:2px solid rgb(83, 81, 81);
+    min-width:390px;
+    height:245px;
+}
+
+
+.hero-container > .hero > img{
+    text-align: right;
+    height:100%;
+    max-width:100%
+    
+}
+
+.info-container{
+    text-align: center;
+    padding: 3.125rem 13rem 6.875rem 13rem;
+
+> h1{
+    color:$infoheadertext;
+    margin-bottom:3.4375rem;
+}
+    
+}
+
+
+.info-container > .info-img{
+    display:flex;
+    
+}
+
+.info-container > .info-img > .char-img{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    height:150px;
+    width:150px;
+
+}
+
+.info-container > .info-img > .char-img > img{
+    border:3px solid $buttoncolor;
+    border-radius: 10px;
+    
+
+}
+    
+.info-container > .caption-container{
+    margin-top:1rem;
+    display:flex;
+    justify-content: center;
+    font-size:1.125rem;
+    color:$infoheadertext;
+   
+}
+
+.info-container > .caption-container > *{
+
+    flex:1;
+    
+   
+}
+
+.quote-container{
+    background:$quotebackgroundcolor;
+    padding:4rem 21.25rem;
+
+> .quote{
+    color:$quotetext;
+    font-size:2.25rem;
+    font-weight:100;
+    font-style: italic;
+
+    }
+
+> .quote-author{
+    text-align: right;
+    font-weight: bold;
+
+}
+
+}
+
+.callaction-container{
+    
+    padding: 5.9375rem 13rem;
+
+> .call-container{
+    background:$buttoncolor;
+    padding:3.125rem 7rem;
+    border-radius:5px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+> .call-container > .call-btn{
+    cursor: pointer;
+    border:2px solid white;
+    border-radius: 5px;
+    color:$herosecondaryheaderlinktext;
+    font-weight:bold;
+    text-align:center;
+    padding:0.5rem 2.1875rem;
+}
+
+> .call-container > .call-text > h3{
+    color:$herosecondaryheaderlinktext;
+    margin:0;
+   
+}
+
+> .call-container > .call-text > section{
+    color:$quotebackgroundcolor;
+   
+}
+
+    
+}
+
+
+
+
+}
+
